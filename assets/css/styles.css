@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+   
+}
+:root{
+    --bg-teal:#009688;
+    --bg-f0: #f0f0f0
+
+}
+.bg-teal{
+    background-color: var(--bg-teal);
+}
+.bg-f0{
+    background-color: var(--bg-f0);
+}
+.fz-15{
+    font-size: 1.5rem;
+}
+.fz-18{
+    font-size: 1.8rem;
+}
+.fz-24{
+    font-size: 2.4rem;
+}
+.fz-30{
+    font-size: 3rem;
+}
+.fillter{
+    filter: grayscale(70%);
+}
+.nav{
+    z-index: 1;
+}
+.navbar-nav .nav-sub{
+    width: 100px;
+}
+.navbar-nav li:hover .nav-sub{
+    display: block !important;
+}
+.header .btn:hover{
+    background-color: var(--bg-teal) !important;
+}
